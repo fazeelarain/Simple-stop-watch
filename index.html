@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <h1>Stop watch</h1>
+
+
+    
+        <div class="watch">
+
+            <h2 id="min"> 00</h2><span>:</span>
+            <h2 id="sec">00</h2> <span>:</span>
+            <h2 id="mili">00 </h2>
+        </div>
+
+    
+    <div id="btn">
+        <input type="button" value="Start" onclick="start()" id="start">
+        <input type="button" value="Stop" onclick="stop()">
+        <input type="button" value="Reset" onclick="Reset()">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
